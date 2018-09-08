@@ -7,8 +7,7 @@ df = pd.read_csv('https://ed-public-download.app.cloud.gov/downloads/Most-Recent
 
 df.dropna()
 
-elite=df.loc[df['ADM_RATE'] < 0.1]
-elite.head(10)
+elite=df.loc[(df['ADM_RATE'] < 0.07) & (df['ADM_RATE'] > 0)]
 
 
 
