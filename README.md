@@ -7,5 +7,8 @@ df = pd.read_csv('https://ed-public-download.app.cloud.gov/downloads/Most-Recent
 
 df.dropna()
 
-elite = df.mask(lambda x: x['ADM_RATE'] <  0.1)
+elite=df.loc[df['ADM_RATE'] < 0.1]
+elite.head(10)
+
+
 
