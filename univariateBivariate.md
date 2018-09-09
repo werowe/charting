@@ -250,5 +250,5 @@ _Input:_
 
 ```python
 %pyspark
-costRange.plot.bar()
+costRange.value_counts().plot.bar()
 ```
