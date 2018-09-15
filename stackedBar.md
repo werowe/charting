@@ -37,6 +37,10 @@ df.iloc[:, 3] = df.iloc[:, 3].apply(sat)
 df.iloc[:, 4] = df.iloc[:, 4].apply(expense)
 
 
+x= df[['REGION','SAT_AVG','ADM_RATE','COSTT4_A' ]]
+y= x.set_index('REGION')
+z=y.groupby('REGION').mean()
+
 z.plot.bar(stacked=True)
 ```
 
