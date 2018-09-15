@@ -1,7 +1,6 @@
 
 
 
-_Input:_
 
 ```python
 %pyspark
