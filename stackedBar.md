@@ -1,10 +1,4 @@
->**Note:**
->This Readme has been automatically created by [zepppelin2md.py](https://github.com/bernhard-42/zeppelin2md).
 
-
-# junk.json
-
----
 
 
 _Input:_
